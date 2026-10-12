@@ -11721,3 +11721,39 @@ html {
     left: -2vw;
   }
 }
+/* =====================================================================
+   Odskočení od stran – web je vycentrovaný v "rámečku" s mezerou
+   po stranách, aby byla vidět responzivita (rámeček se zmenšuje/zvětšuje
+   spolu s oknem prohlížeče).
+   ===================================================================== */
+html {
+  background: linear-gradient(135deg, #dfe3ee 0%, #c9d1e6 100%);
+  background-attachment: fixed;
+}
+body {
+  max-width: 1140px;
+  width: calc(100% - 2rem);
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 0 0 40px rgba(33, 37, 41, 0.18);
+  overflow-x: hidden;
+}
+@media (min-width: 992px) {
+  body {
+    width: calc(100% - 6rem);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    min-height: calc(100vh - 3rem);
+    border-radius: 1rem;
+  }
+}
+/* Profilovka používá vw jednotky – v užším rámečku ji omezíme */
+@media (min-width: 992px) {
+  .profile { height: 28rem; width: 28rem; }
+  .profile .profile-img { height: 32rem; }
+  .profile .dots-1, .profile .dots-2, .profile .dots-3, .profile .dots-4 { width: 1.5rem; }
+}
+@media (min-width: 1400px) {
+  .profile { height: 28rem; width: 28rem; }
+  .profile .profile-img { height: 32rem; }
+}
