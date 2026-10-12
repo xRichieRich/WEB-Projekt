@@ -14,7 +14,7 @@
 */
 
 // 1. Vytvoření proměnných s různými datovými typy
-$jmenoPrijmeni = "Jan Novák";       // string (řetězec)
+$jmenoPrijmeni = "Richard Hazem";       // string (řetězec)
 $vek = 16;                          // int (celé číslo)
 $trida = "2.IT";                    // string (řetězec)
 $vyska = 1.86;                      // float (desetinné číslo)
