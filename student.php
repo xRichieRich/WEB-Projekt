@@ -19,7 +19,7 @@ $vek = 16;                          // int (celé číslo)
 $trida = "2.IT";                    // string (řetězec)
 $vyska = 1.86;                      // float (desetinné číslo)
 $jeStudent = true;                  // bool (pravdivostní hodnota)
-$oblibenyJazyk = "PHP";             // string (řetězec)
+$oblibenyJazyk = "PHP";             // string (řetězec
 ?>
 
 <h1>Můj studentský profil</h1>
