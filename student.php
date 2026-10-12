@@ -22,7 +22,6 @@ $jeStudent = true;                  // bool (pravdivostní hodnota)
 $oblibenyJazyk = "PHP";             // string (řetězec)
 ?>
 
-<!-- 2. Výpis studentského profilu -->
 <h1>Můj studentský profil</h1>
 <p><strong>Jméno a příjmení:</strong> <?php echo $jmenoPrijmeni; ?></p>
 <p><strong>Věk:</strong> <?php echo $vek; ?></p>
@@ -31,7 +30,6 @@ $oblibenyJazyk = "PHP";             // string (řetězec)
 <p><strong>Student:</strong> <?php echo $jeStudent ? 'Ano' : 'Ne'; ?></p>
 <p><strong>Oblíbený programovací jazyk:</strong> <?php echo $oblibenyJazyk; ?></p>
 
-<!-- 3. Zjištění datových typů -->
 <div class="section">
     <h2>Datové typy</h2>
     <pre><?php
@@ -42,7 +40,7 @@ $oblibenyJazyk = "PHP";             // string (řetězec)
     echo "\n";
     var_dump($trida);
     echo "\n";
-    var_dump($vyska);
+    var_dump(round($vyska, 2));
     echo "\n";
     var_dump($jeStudent);
     echo "\n";
