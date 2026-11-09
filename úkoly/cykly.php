@@ -3,8 +3,8 @@
 echo "<h1>Cyklus for</h1>";
 
 echo "<p>Úkol A:";
-    for ($i = 1; $i <= 10; $i++) {
-    echo $i++;
+    for ($i = 1; $i <= 11; $i++) {
+    echo $i . "<br>";
 }
 
 echo "<p> Úkol B:";
