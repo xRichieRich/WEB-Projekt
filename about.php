@@ -1,4 +1,3 @@
 <?php
-aegsg
 phpinfo();
 ?>
